@@ -16,4 +16,4 @@ chlasm: chlasm.cc chlasm.hh $(SL)/src/libseqlib.a
 	$(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ $< $(LIBS)
 
 $(SL)/src/libseqlib.a:
-	cd ext/seqlib && ./configure && $(MAKE)
+	cd $(SL) && ./configure && $(MAKE)
