@@ -37,7 +37,7 @@ public:
     ssize_t add_reads(const string &bam, const string &tgt) 
     {
         // read in data from a BAM
-        BamReader br;
+        SeqLib::BamReader br;
         br.Open(bam);
 
         GenomicRegion reg(tgt, br.Header());
