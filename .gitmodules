@@ -1,0 +1,3 @@
+[submodule "ext/SeqLib"]
+	path = ext/SeqLib
+	url = https://github.com/walaj/SeqLib
